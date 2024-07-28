@@ -1,0 +1,152 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.edit {
+    color: white;
+    background-color: rgb(94, 155, 3);
+    text-decoration: none;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit:hover {
+    color: white;
+    background-color: rgb(80, 132, 3);
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#search {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+#kelas {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#kelas:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+button[type="submit"] {
+    background-color: #ff6347;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #d9534f;
+}
+
+
+/* Styles for canvas */
+canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.chart-container {
+    position: relative;
+    margin: 20px auto;
+    height: 400px;
+    width: 400px;
+}
